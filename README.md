@@ -1,92 +1,103 @@
-FastMath
+📘 **FastMath**
 
-O FastMath é uma ferramenta educativa que automatiza cálculos de Matemática e Física do Ensino Médio.
-A proposta é transformar fórmulas reais em operações diretas, organizadas e rápidas — sem depender de calculadoras genéricas.
+O FastMath é um projeto desenvolvido para realizar cálculos matemáticos e físicos comuns do Ensino Médio, de forma direta, rápida e organizada.
+Ele funciona como uma calculadora automatizada de fórmulas reais, indo além do básico.
 
-Este projeto foi criado como meu primeiro sistema real em Java, com foco em POO, modularização e separação de responsabilidades.
+Este projeto marcou meu primeiro sistema real em Java, onde consolidei:
 
-🚀 Funcionalidades
+ - Programação Orientada a Objetos
 
-Cálculos de Física (MRU, MRUV, força, energia etc.)
+ - Modularização
 
-Cálculos matemáticos comuns no ensino médio
+ - Separação de responsabilidades
 
-Estrutura 100% orientada a objetos
+ - Estrutura de pacotes
 
-Terminal simples e direto
-
-Arquitetura preparada para expansão futura (GUI, Web e novos módulos)
+ - Boas práticas fundamentais da linguagem
 
 ---
 
-🛠️ Tecnologias
+🚀 **Funcionalidades**
 
-Java 17
+ - Cálculos físicos de nível médio (MRU, Energia, Força, etc.)
 
-IntelliJ IDEA
+ - Cálculos matemáticos recorrentes
 
-Git & GitHub
+ - Estrutura totalmente orientada a objetos
 
-<img align="left" width="30" style="margin-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-<img align="left" width="30" style="margin-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+ - Terminal limpo e intuitivo
 
-<br/><br/>
+ - Base preparada para evolução futura (UI, web, novos módulos)
 
 ---
 
-📦 Arquitetura do Projeto
+🛠️ **Tecnologias Usadas**
+
+<p align="left"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40px" style="margin-right:10px;" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40px" style="margin-right:10px;" /> </p>
+
+---
+
+📦 **Estrutura do Projeto**
+
 src/
  └── fastmath/
       ├── application/
-      │    ├── FastMathApp.java   # Núcleo da aplicação
-      │    └── Main.java          # Ponto de entrada
+      │    ├── FastMathApp.java   → núcleo do programa
+      │    └── Main.java          → ponto de entrada
       │
       ├── util/
-      │    └── InputUtils.java    # Controle de entrada de dados
+      │    └── InputUtils.java    → leitura de dados
       │
       ├── physics/
-      │    ├── Mru.java           # Cálculo de MRU
-      │    └── ...                # Outros módulos físicos
+      │    ├── Energia.java
+      │    ├── Forca.java
+      │    ├── Mru.java
+      │    └── Mruv.java
       │
       └── math/
-           └── ...                # Módulos matemáticos
-
-
-Pontos fortes da arquitetura:
-
-Responsabilidade única
-
-Pacotes separados por domínio
-
-Código limpo e fácil de expandir
-
-▶️ Como Executar
-
-# Clone o repositório
-git clone https://github.com/NicolasVieiraDev/fastmath
-
-# Abra no IntelliJ e execute:
-src/fastmath/application/Main.java
-
-
-O programa roda direto no terminal da IDE.
-
-----
-
-📸 Demonstração
-
-<img width="800" alt="FastMath Screenshot" src="https://github.com/user-attachments/assets/9a4f59d3-6a0a-43a8-871d-66ab88a228b6" />
-👤 Autor
-
-Nicolas Vieira
-Estudante de Engenharia de Software | Java Developer em formação
-LinkedIn: https://www.linkedin.com/in/nicolas-vieira-bb3514335/
-
-GitHub: https://github.com/NicolasVieiraDev
+           ├── Bhaskara.java
+           ├── MatematicaMenu.java
+           ├── Porcentagem.java
+           └── RegraTres.java
 
 ---
 
-⭐ Contribuição
+▶️ **Como Rodar o Projeto**
 
-Sugestões e melhorias são bem-vindas.
-Sinta-se livre para abrir issues e pull requests.
+***1. Clone o repositório***
+
+git clone https://github.com/NicolasVieiraDev/fastmath
+
+
+***2. Abra no IntelliJ***
+
+Abra o projeto normalmente e vá até:
+
+src/fastmath/application/Main.java
+
+***3. Execute***
+
+O programa roda direto no terminal da IDE.
+
+📸 **Demonstração**
+
+<img width="1920" height="1080" alt="Captura de tela de 2025-12-02 23-16-34" src="https://github.com/user-attachments/assets/6d74ebe2-33ab-48e3-81f1-ce719183800a" />
+
+---
+
+👤 **Autor**
+
+Nicolas Vieira
+Estudante de Engenharia de Software
+Desenvolvedor Java em Formação
+
+🔗 LinkedIn: https://www.linkedin.com/in/nicolas-vieira-bb3514335/
+
+🔗 GitHub: https://github.com/NicolasVieiraDev
+
+---
+
+⭐ **Contribuições**
+
+Sugestões, melhorias e novas ideias são bem-vindas.
+Abra uma issue ou envie um pull request.
