@@ -60,9 +60,8 @@ Pacotes separados por domínio
 
 Código limpo e fácil de expandir
 
----
-
 ▶️ Como Executar
+
 # Clone o repositório
 git clone https://github.com/NicolasVieiraDev/fastmath
 
